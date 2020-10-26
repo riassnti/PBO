@@ -46,19 +46,27 @@ class Pegawai extends Orang {
     private int jamLembur;
     private double gajiPokok;
     private double gajiLembur;
+    private double pajakGajiPokok;
+    private double pajakLembur;
+    private double totalPajak;
+    private double tunjanganPengabdian;
     private double totalGajiLembur;
     private double totalGajiBersih;
 
-    //Constructor
     public Pegawai() {
-        this.nip = " ";
-        this.jabatan = " ";
-        this.golongan = 0;
-        this.gajiPokok = 0;
-        this.jamLembur = 0;
-        this.gajiLembur = 0;
-        this.totalGajiLembur = 0;
-        this.totalGajiBersih = 0;
+        this.nip = nip;
+        this.jabatan = jabatan;
+        this.golongan = golongan;
+        this.jamKerja = jamKerja;
+        this.jamLembur = jamLembur;
+        this.gajiPokok = gajiPokok;
+        this.gajiLembur = gajiLembur;
+        this.pajakGajiPokok = pajakGajiPokok;
+        this.pajakLembur = pajakLembur;
+        this.totalPajak = totalPajak;
+        this.tunjanganPengabdian = tunjanganPengabdian;
+        this.totalGajiLembur = totalGajiLembur;
+        this.totalGajiBersih = totalGajiBersih;
     }
 
     //Method
